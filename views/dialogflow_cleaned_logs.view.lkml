@@ -5,6 +5,7 @@ view: dialogflow_cleaned_logs {
   dimension: action {
     type: string
     sql: ${TABLE}.action ;;
+
   }
 
   dimension_group: date {
